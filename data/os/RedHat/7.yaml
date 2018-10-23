@@ -1,0 +1,16 @@
+---
+vim::packages:
+    - ack
+    - ctags
+    - dejavu-fonts-common
+    - dejavu-sans-mono-fonts
+    - gcc
+    - libcanberra-gtk2
+    - make
+    # python-flake8 requires EPEL
+    - python-flake8
+    - vim-common
+    - vim-enhanced
+    - vim-X11
+
+vim::vimpkg: 'vim-enhanced'

@@ -1,0 +1,13 @@
+---
+vim::packages:
+    - ctags
+    - dejavu-fonts-common
+    - dejavu-sans-mono-fonts
+    - gcc
+    - libcanberra-gtk2
+    - make
+    - vim-common
+    - vim-enhanced
+    - vim-X11
+
+vim::vimpkg: 'vim-enhanced'

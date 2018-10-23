@@ -1,0 +1,16 @@
+---
+vim::packages:
+    - ack-grep
+    - exuberant-ctags
+    - gcc
+    - libcanberra-gtk-module
+    - make
+    - ttf-dejavu-core
+    - ttf-dejavu-extra
+    - vim
+    - vim-common
+    - vim-gtk
+
+vim::vimpkg: 'vim'
+
+vim::deb_cfg_file: /usr/share/vim/vim81/defaults.vim
