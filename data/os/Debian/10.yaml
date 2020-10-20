@@ -1,6 +1,6 @@
 ---
 vim::packages:
-    - ack-grep
+    - ack
     - exuberant-ctags
     - gcc
     - libcanberra-gtk-module
