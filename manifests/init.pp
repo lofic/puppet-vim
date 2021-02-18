@@ -6,6 +6,8 @@ class vim(
     $deb_cfg_file = 'only_for_debian',
     ) {
 
+    include vim::build_minimal
+
     if $facts['os']['family'] == 'Debian' {
         package { $vim::packages : ensure => installed, }
 
