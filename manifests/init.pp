@@ -4,9 +4,12 @@ class vim(
     $packages,
     $vimpkg = 'vim-enhanced',
     $deb_cfg_file = 'only_for_debian',
+    $build_tools = false,
     ) {
 
-    include vim::build_minimal
+    if $vim::build_tools {
+        include vim::build_minimal
+    }
 
     if $facts['os']['family'] == 'Debian' {
         package { $vim::packages : ensure => installed, }
