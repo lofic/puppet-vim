@@ -3,6 +3,7 @@ vim::packages:
     - ack
     - exuberant-ctags
     - libcanberra-gtk-module
+    - fonts-powerline
     - ttf-dejavu-core
     - ttf-dejavu-extra
     - vim

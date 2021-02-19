@@ -4,6 +4,7 @@ vim::packages:
     - dejavu-fonts-common
     - dejavu-sans-mono-fonts
     - libcanberra-gtk2
+    - powerline-fonts
     - vim-common
     - vim-enhanced
     - vim-X11
