@@ -1,0 +1,15 @@
+---
+vim::packages:
+    - ack
+    - exuberant-ctags
+    - libcanberra-gtk-module
+    - fonts-powerline
+    - fonts-dejavu-core
+    - fonts-dejavu-extra
+    - vim
+    - vim-common
+    - vim-gtk
+
+vim::vimpkg: 'vim'
+
+vim::deb_cfg_file: /usr/share/vim/vim82/defaults.vim
