@@ -1,0 +1,14 @@
+---
+vim::packages:
+    # ack requires EPEL
+    - ack
+    - ctags
+    - dejavu-sans-mono-fonts
+    - libcanberra-gtk2
+    # powerline-fonts requires EPEL
+    - powerline-fonts
+    - vim-common
+    - vim-enhanced
+    - vim-X11
+
+vim::vimpkg: 'vim-enhanced'
